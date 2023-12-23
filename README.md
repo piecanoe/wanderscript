@@ -4,6 +4,8 @@
 
 Wanderscript -- a travel journal
 
+![Screenshot](wanderscript_screenshot.png)
+
 ## Description
 
 This is a travel journal or blog built in React. This project was used as practice for understanding props and and components.
