@@ -4,6 +4,8 @@
 
 Wanderscript -- a travel journal
 
+## Screenshot
+
 ![Screenshot](wanderscript_screenshot.png)
 
 ## Description
