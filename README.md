@@ -1,8 +1,4 @@
-
-
-# Project Title
-
-Wanderscript -- a travel journal
+# Wanderscript - A Travel Journal
 
 ## Screenshot
 
@@ -18,8 +14,6 @@ This site is responsive.
 
 Live Site: [Wanderscript] (https://wanderscript.netlify.app/)
 
-## Getting Started
-
 ### Dependencies
 
 * [Create React App] (https://create-react-app.dev/)
@@ -27,7 +21,7 @@ Live Site: [Wanderscript] (https://wanderscript.netlify.app/)
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info:
 
 Karen Du 
 * [Website] (https://karendu.netlify.app)
