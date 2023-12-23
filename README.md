@@ -8,6 +8,8 @@ Wanderscript -- a travel journal
 
 This is a travel journal or blog built in React. This project was used as practice for understanding props and and components.
 
+This site is responsive.
+
 ## Description
 
 Live Site: [Wanderscript] ()
