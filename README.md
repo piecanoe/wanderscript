@@ -12,7 +12,7 @@ This site is responsive.
 
 ## Description
 
-Live Site: [Wanderscript] ()
+Live Site: [Wanderscript] (https://wanderscript.netlify.app/)
 
 ## Getting Started
 
