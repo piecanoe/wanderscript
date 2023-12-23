@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section {
+  padding: 40px 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  padding: 10px 36px;
+}
+
+.nav-logo {
+  max-height: 100px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.card + .card {
+  border-top: 1px solid #d2e1dd;
+}
+
+.card-photo {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 9px;
+  align-self: center;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  max-height: 200px;
+  margin: 0 0 0 1rem;
+}
+
+.card-map {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-country {
+  font-weight: 700;
+  font-size: .8rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #010144be;
+}
+
+.google-maps {
+  font-size: .8rem;
+  margin: 0;
+  padding: 0;
+  color: #00ca9e;
+}
+
+.card-attraction {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: .5rem 0;
+  color: #010144;
+}
+.card-dates {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #010144be;
+}
+
+.card-description {
+  font-size: .8rem;
+  color: #010144;
+}
+
+.footer {
+  font-weight: 500;
+  font-size: .9rem;
+  color: #010144;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d2e1dd;
+  padding-top: 0;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a:link, a:visited {
+  color: #010144;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #89cdbe;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .card-photo {
+    width: 100%;
+  }
+
+  .card-info {
+    margin: 1em 0 0 0;
+    padding: 0 1rem;
+  }
+
+  .card-dates {
+    font-size: .8rem;
+    font-weight: 700;
+  }
+
+  .card-dates p {
+    margin: 0;
+  }
+
+  .card-description {
+    display: none;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer p {
+    padding: 0;
+    margin: .1rem;
+  }
+
+}
